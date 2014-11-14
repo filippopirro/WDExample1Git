@@ -1,0 +1,120 @@
+﻿body {
+    background-color: #666;
+    color: #000305;
+    font-family: Arial, 'Lucida Sans Unicode';
+    font-size: 87.5%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #cf5c3f;
+    margin: 0px;
+}
+
+a:hover, a:active {
+    background-color: #cf5c3f;
+    border-radius: 4px;
+    color: #fff;
+    padding: 13px 10px;
+    margin: 0px;
+}
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+.mainHeader img {
+    height: auto;
+    margin: 2% 0;
+    width: 30%;
+}
+
+.mainContent {
+    background-color: #666;
+    padding: 0px;
+    float: left;
+    width: 70%;
+}
+
+.mainContentFullWidth {
+    background-color: #666;
+    padding: 0px;
+    float: left;
+    width: 100%;
+}
+
+.content {
+    background-color: lightblue;
+    border-radius: 4px;
+    color: black;
+    padding: 0px 0px;
+}
+
+.sideContent {
+    background-color: #666;
+    color: black;
+    float: left;
+    padding: 0px 0px 0px 10px;
+    width: 28.9%;
+}
+
+.newsContent {
+    background-color: lightblue;
+    color: black;
+    border-radius: 4px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.topContent {
+    background-color: lightblue;
+    border-radius: 4px;
+    color: black;
+    margin: 10px;
+    padding: 1px 20px;
+}
+
+.sideTitle {
+    color: black;
+}
+
+.subtitle {
+    color: grey;
+    font-style: italic;
+}
+
+nav ul {
+    margin: 0px;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav ul li {
+    padding: 10px 0px;
+    color: white;
+}
+
+nav ul a {
+    padding: 13px 10px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;  
+}
+
+nav a:link, nav a:visited {
+    color: white;
+}​
